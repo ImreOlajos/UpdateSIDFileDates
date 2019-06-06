@@ -61,6 +61,7 @@ for root, subdirs, files in os.walk(hvsc_dir):
                     
                     # Extract just the year from the Released field.
                     # Luckily, in HVSC files this is always the first 4 chars.
+                    # If that's garbage, oh well...
                     released_components = released.split()
                     year = released_components[0][:4]
 
