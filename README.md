@@ -6,7 +6,7 @@ given directory to match their actual release dates.
 It reads the release date of a SID file from the SID file's metadata, and if
 it's a known year (no question mark in the year), it sets the given SID file's
 modification time to Jan 1 of that year. Some release dates are given with a
-range (e.g. 1996-1987), in this case the first year will be set as the
+range (e.g. 1986-1987), in this case the first year will be set as the
 modification time.
 
 This way when you use your favorite file browser's "sort by date" option, the
